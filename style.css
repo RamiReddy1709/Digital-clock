@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: grey;
+    width: auto;
+}
+#clocks{
+    display: flex;
+    height:500px;
+    width: 700px;
+    background-color: black;
+    margin-top: 300px;
+    margin-left: 350px;
+    margin-bottom: 300px;
+    position:inline-block;
+    border: 15px solid rgb(92, 89, 221);
+    
+    
+    
+    
+}
+.time{
+    display: flex;
+    position:inline-block;
+
+}
+.date{
+    display: flex;
+    position:inline-block;
+    
+
+}
+.dat{
+    display: flex;
+    position: absolute;
+    color:rgb(48, 152, 221);
+    text-align: center;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 350px;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+.tim{
+    display: flex;
+    position: absolute;
+    color:rgb(48, 152, 221);
+    text-align: center;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 70px;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+#clock{
+    display: flex;
+    position: absolute;
+    color: rgb(155, 195, 241);
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    height: 90px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-left: 280px;
+    margin-top: 70px;
+    box-shadow:  0 0 5px rgb(228, 157, 235),0 0 25px rgb(228, 157, 235),0 0 50px rgb(228, 157, 235),0 0 100px rgb(228, 157, 235);;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#cal{
+    display: flex;
+    position: absolute;
+    color: rgb(155, 195, 241);
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    width: 330px;
+    height: 90px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-left: 280px;
+    margin-top: 340px;
+    box-shadow:  0 0 5px rgb(228, 157, 235),0 0 25px rgb(228, 157, 235),0 0 50px rgb(228, 157, 235),0 0 100px rgb(228, 157, 235);;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+
+}
